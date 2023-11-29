@@ -236,6 +236,9 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Set screen lines to always be around the cursor
+vim.o.so = 5
+
 -- Set highlight on search
 vim.o.hlsearch = true
 
