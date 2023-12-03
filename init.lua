@@ -239,6 +239,9 @@ require('lazy').setup({
 -- Set screen lines to always be around the cursor
 vim.o.so = 5
 
+-- Don't break words when line is too long
+vim.o.lbr = true
+
 -- Set highlight on search
 vim.o.hlsearch = true
 
