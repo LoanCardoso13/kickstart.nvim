@@ -236,6 +236,10 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Set folding for chunks of code by indentation while starting files with 20 levels open by default
+vim.o.foldlevel = 20
+vim.o.foldmethod = 'indent'
+
 -- Set screen lines to always be around the cursor
 vim.o.so = 5
 
